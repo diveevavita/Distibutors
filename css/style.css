@@ -1,0 +1,1932 @@
+body {
+	display: block;
+	margin: 0px;
+	min-width: 320px;
+}
+
+@font-face {
+	font-family: "Roboto Regular"; 
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Roboto Medium"; 
+	src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+	font-family: "Roboto Bold"; 
+	src: url(../fonts/Roboto-Bold.ttf);
+}
+
+body {
+	overflow-x: hidden;
+	min-width: 320px;
+	width: 100%;
+	height: 100%;
+	color: #000;
+	font-size: 12px;
+	font-family: 'Arial',sans-serif;
+	padding: 0;
+	margin: 0;
+	background: #f6f6f6;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.page {
+	position: relative;
+	box-sizing: border-box;
+
+	z-index: 1;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	-moz-font-feature-settings: liga, kern;
+	background: #fff;
+	color: #333333;
+	min-width: 320px;
+	height: 100vh;
+}
+
+.page__content {
+	padding: 16px 0;
+}
+
+.container {
+	display: block;
+	width: 1400px;
+	margin: 0 auto;
+	padding: 0 20px;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+.container__content {
+	position: relative;
+	z-index: 999;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 0 0 100px;
+}
+
+.container__content {
+	padding-bottom: 10px !important;
+}
+
+.container_advantages-line {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 90%;
+	margin:0 auto 50px;
+	padding: 0 15px;
+	background-color: #ffffff;
+	box-shadow: 0 0 20px 0px #f4f4f4;
+    -webkit-box-shadow: 0 0 20px 0px #f4f4f4;
+    -moz-box-shadow: 0 0 20px 0px #F4F4F4;
+}
+
+.container_advantages-line_item {
+	text-align: center;
+	margin-top: auto;
+	box-sizing: border-box;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto Regular";
+    color: #1B1717;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.container_advantages-line_item:first-child {
+    color: #0070C9;
+    border-bottom: 2px solid;
+    border-color: #0070C9;
+}
+
+.container_advantages-line_item:hover {
+	color: #0070C9;
+	border-bottom: 2px solid;
+	border-color: #0070C9;
+}
+
+.container_advantages-line_item:focus {
+	color: #0070C9;
+	border-bottom: 2px solid;
+	border-color: #0070C9;
+}
+
+.container_advantages-main {
+	margin: 0 0 80px;
+	padding: 0 50px;
+}
+
+.container_advantages-title {
+	font-family: "Roboto Regular";
+    color: #1B1717;
+    font-size: 38px;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    letter-spacing: 1px;
+    line-height: 130%;
+    margin: 0 0 50px 0;
+}
+
+.text_ex {
+	color: #F44336;
+    margin: 0;
+}
+
+.container_advantages-block {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container_advantages-category {
+	display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-bottom: 40px;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.container_advantages-category:nth-child(3n+3) {
+	margin-right: 0;
+}
+
+.container_advantages-category:last-child {
+	margin: 0;
+}
+
+.container_advantages-category-icon {
+    margin: 0 auto 20px 0;
+}
+
+.container_advantages-category_inform {
+	margin: 0;
+}
+
+.container_advantages-category_inform-title {
+	font-family: "Roboto Regular";
+    color: #1B1717;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 140%;
+    margin: 0 0 15px;
+}
+
+.container_advantages-category_inform-text {
+	font-family: "Roboto Regular";
+    color: #1B1717;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 140%;
+    margin: 0 0 10px;
+}
+
+.container_advantages-list {
+	margin: 0 0 120px;
+    padding: 0 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_advantages-list-item {
+	display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-bottom: 1px solid;
+    border-color: #BEB6B6;
+}
+
+.container_advantages-list-item:last-child {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.container_advantages-list-item-title {
+	font-family: "Roboto Regular";
+    color: #1B1717;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 130%;
+    margin: auto 0;
+    width: 90%;
+}
+
+.hide_but + .button_hidden_down ~ .container_advantages-list-item_hidden-content {
+	display: none;
+}
+
+.hide_but:checked + .button_hidden_down ~ .container_advantages-list-item_hidden-content {
+	display: flex;
+    flex-direction: column;
+    z-index: 5;
+    margin-top: 30px;
+    padding-left: 100px;
+    width: 100%;
+}
+
+.hide_but {
+	display: none;
+}
+
+.hide_but + .button_hidden_down {
+	cursor: pointer;
+}
+
+.hide_but:checked + .button_hidden_down {
+    transform: rotate(180deg);
+}
+
+.button_hidden {
+	width: 58px;
+    height: 58px;
+}
+
+.button_hidden_down {
+    width: 58px;
+    height: 58px;
+    margin: 0 45px 0 0;
+}
+
+.hide_but:checked + .button_hidden_down {
+	transform: rotate(180deg);
+}
+
+.container_advantages-list-item_hidden-content_item {
+	margin: 0 0 30px;
+}
+
+.container_advantages-list-item_hidden-content_item:last-child {
+	margin: 0;
+}
+
+.container_advantages-list-item_hidden-text {
+	font-family: "Roboto Regular";
+    color: #1B1717;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 140%;
+    margin: 0;
+}
+
+.text_bold {
+	font-weight: 700;
+}
+
+.container_advantages-list-item_hidden-title {
+	font-family: "Roboto Regular";
+    color: #1B1717;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 140%;
+    margin: 0 0 20px;
+}
+
+.advantages-list-item_hidden-block {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.advantages-list-item_hidden-line {
+	display: flex;
+	flex-wrap: nowrap;
+	margin-bottom: 20px;
+}
+
+.hidden-line_arrow {
+	width: 15px;
+	height: 12px;
+	margin: 5px 15px auto 0;
+}
+
+.hidden-content_registration {
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+}
+
+.application_choice {
+	display: flex;
+	flex-direction: column;
+}
+
+.application_choice-item {
+	width: auto;
+	margin-bottom: 20px;
+}
+
+.application_choice-item-hide {
+	display: none;
+}
+
+.application_choice-item-hide + .application_choice-item-content {
+	border: 1px solid;
+	border-radius: 10px;
+	border-color: #0070C9;
+	padding: 10px 15px;	cursor: pointer;
+    display: inline-block;
+
+    font-family: "Roboto Regular";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 130%;
+	color: #0070C9;
+	margin: 0;
+	text-align: center;
+}
+
+.application_choice-item-hide:checked + .application_choice-item-content {
+	background-color: #0070C9;
+	color: #ffffff;
+}
+
+.application_choice-item-content:hover {
+	background-color: #0070C9;
+	color: #ffffff;
+}
+
+.application_choice-item-content:focus {
+	background-color: #0070C9;
+	color: #ffffff;
+}
+
+.application_choice-item-content:checked {
+	background-color: #0070C9;
+	color: #ffffff;
+}
+
+.registration_inform {
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 380px;
+}
+
+.registration_inform-item {
+	display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 15px;
+    width: 100%;
+}
+
+.registration_inform-item__ {
+	display: flex;
+    flex-direction: column-reverse;
+    outline: none;
+    padding: 10px 20px;
+    width: 100%;
+    height: 41px;
+    border: 1px solid;
+    border-color: #034899;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.registration_inform-item_text {
+	font-family: "Roboto Regular";
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 140%;
+    margin: auto;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 0;
+}
+
+.registration_inform-item_text-hidden {
+	display: none;
+    margin: 0 0 5px;
+    color: #615B5B;
+    font-size: 14px;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -moz-appearance: number-input;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.registration_inform-item_text:active + .registration_inform-item_text-hidden {
+	display: block;
+}
+
+.registration_inform-item_text:focus + .registration_inform-item_text-hidden {
+	display: block;
+}
+
+.checkbox {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    width: 1px;
+    height: 1px;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.checkbox-text {
+  display: inline-block;
+  color: #504B4B;
+}
+
+.checkbox-text::before {
+  margin-right: 8px;
+}
+
+.checkbox-text::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  
+  width: 20px;
+  height: 20px;
+  
+  background-image: url(../svg/rctngl.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 20px;
+}
+
+.checkbox:focus ~ .checkbox-text::before {
+  outline: 2px solid #0f8fee;
+  outline-offset: 2px;
+}
+
+.checkbox:checked ~ .checkbox-text::before {
+  background-image: url(../svg/check.svg);
+}
+
+.confident {
+	text-decoration: underline;
+	color: #504B4B;
+}
+
+.registration_inform_button {
+	text-decoration: none;
+    width: 100%;
+}
+
+.send-button {
+    height: 51px;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #6A6868;
+    font-family: "Roboto Bold";
+    background-color: #CFD0D1;
+    border-radius: 10px;
+    border-color: transparent;
+    outline: none;
+    padding: 13px;
+    cursor: pointer;
+    outline: none;
+}
+
+.send-button:active {
+    color: #6A6868;
+    background: #CFD0D1;
+    border-color: transparent;
+    border-radius: 10px;
+    outline: none;
+}
+
+.alterra_link {
+	text-decoration: none;
+	color: #0070C9;
+}
+
+.advantages-list-item_hidden-block_cars {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.advantages-list-item_hidden-block_car {
+	display: flex;
+	width: 49%;
+	padding: 15px 0;
+}
+
+.advantages-list-item_hidden-block_car:last-child {
+	justify-content: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+}
+
+.hidden-block_car {
+	margin-right: 20px;
+}
+
+.advantages-list-item_hidden-block_content {
+	display: flex;
+	flex-direction: column;
+}
+
+.advantages-list-item_hidden-block_content-title {
+	font-family: "Roboto Regular";
+    color: #1B1717;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 140%;
+    margin: 0 0 10px;
+}
+
+.hidden-block_car_button {
+	background-color: #F44336;
+	border-radius: 10px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-family: "Roboto Regular";
+	font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 130%;
+    margin: 50px 0 35px 15%;
+    padding: 12px 25px;
+    border-color: transparent;
+    outline: none;
+}
+
+.hidden-block_car_button:active {
+	background-color: #ffffff;
+	border-color: #F44336;
+	color: #F44336;
+	border-radius: 10px;
+}
+
+.hidden-block_car_button:focus {
+	background-color: #ffffff;
+	border-color: #F44336;
+	color: #F44336;
+	border-radius: 10px;
+}
+
+#delivery {
+	width: auto;
+	margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden-block_big-car {
+	border-radius: 10px;
+	margin-right: 30px;
+}
+
+.hidden-block_knauf-car {
+	border-radius: 10px;
+}
+
+.hidden-block_application_button {
+	background-color: #F44336;
+	border-radius: 10px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-family: "Roboto Regular";
+	font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 130%;
+    margin: 0 60% 20px 0;
+    padding: 12px 25px;
+    border-color: transparent;
+    outline: none;
+}
+
+.hidden-block_application_button:active {
+	background-color: #ffffff;
+	border-color: #F44336;
+	color: #F44336;
+	border-radius: 10px;
+}
+
+.hidden-block_application_button:focus {
+	background-color: #ffffff;
+	border-color: #F44336;
+	color: #F44336;
+	border-radius: 10px;
+}
+
+.alterra_cars {
+	border-radius: 10px;
+}
+
+.block-information_items {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block-information_item {
+	text-align: center;
+	box-sizing: border-box;
+    width: 175px;
+    height: 110px;
+    padding: 40px 0;
+    box-shadow: 0 0 20px 0px #f4f4f4;
+    -webkit-box-shadow: 0 0 20px 0px #f4f4f4;
+    -moz-box-shadow: 0 0 20px 0px #F4F4F4;
+}
+
+.block-information_item:nth-child(3) {
+	padding: 30px 0;
+}
+
+.block-information_item:nth-child(5) {
+	padding: 30px 0;
+}
+
+.block-information_item:nth-child(6) {
+	padding: 30px 0;
+}
+
+.block-information_item-link {
+	background-color: #ffffff;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #034899;
+	font-family: "Roboto Regular";
+	font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 130%;
+    margin: 0 auto;
+    border-color: transparent;
+    outline: none;
+}
+
+.block-social-networks_items {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block-social-networks_item {
+	text-align: center;
+	box-sizing: border-box;
+    width: 175px;
+    height: 211px;
+    padding: 25px 10px;
+    box-shadow: 0 0 20px 0px #f4f4f4;
+    -webkit-box-shadow: 0 0 20px 0px #f4f4f4;
+    -moz-box-shadow: 0 0 20px 0px #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.block-social-networks_item-label {
+	margin: 0 auto 10px;
+}
+
+.block-social-networks_item-text {
+	color: #1B1717;
+	font-family: "Roboto Regular";
+	font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 130%;
+    margin: 0 auto;
+}
+
+.social-networks_link {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #034899;
+}
+
+.container_advantages-category_service {
+	display: flex;
+    flex-wrap: nowrap;
+    width: 30%;
+    margin-bottom: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 3%;
+}
+
+.container_advantages-category_service:nth-child(3n+3) {
+	margin-right: 0;
+}
+
+.container_advantages-category_service:last-child {
+	margin-bottom: 0;
+}
+
+.container_advantages-category_service-icon {
+	margin: 0 20px auto 0;
+	width: 60px;
+    height: 60px;
+}
+
+.container_advantages-category_service-title {
+	font-family: "Roboto Regular";
+    color: #1B1717;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 140%;
+    margin: 0 0 15px;
+}
+
+.container_advantages-category_service-text {
+	font-family: "Roboto Regular";
+    color: #1B1717;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 140%;
+    margin: 0 0 10px;
+}
+
+.advantages_online-shopping_section {
+	width: 100%;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.advantages_online-shopping_section:last-child {
+	margin-bottom: 0;
+}
+
+.advantages_online-shopping_section-title {
+	font-family: "Roboto Regular";
+    color: #E6330F;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 130%;
+    margin: 0;
+    width: 25%;
+}
+
+.advantages_online-shopping_section-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.advantages_online-shopping_section-list-item {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	margin-bottom: 15px;
+}
+
+.advantages_online-shopping_section-list-item:last-child {
+	margin-bottom: 0;
+}
+
+.advantages_online-shopping_section-list-item__number {
+	font-family: "Roboto Regular";
+    color: #908E8E;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 140%;
+    margin: 0 15px 0 0;
+}
+
+.link_about_dilivery {
+	text-decoration: none;
+	color: #0070C9;
+	border-bottom: 3px dashed;
+
+}
+
+.hidden-block_start-work_button {
+	background-color: #F44336;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Roboto Regular";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 130%;
+    margin: 0 auto;
+    padding: 12px 25px;
+    border-color: transparent;
+    outline: none;
+}
+
+.hidden-content_item-section-payment {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.hidden-content_item-section-payment_category {
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+}
+
+.item-section-payment_category-image {
+	width: 278px;
+	height: 170px;
+	border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.corporate_buyer-registration {
+	padding: 0 30px;
+}
+
+.corporate_buyer-registration-title {
+	font-family: "Roboto Regular";
+    color: #1B1717;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 120%;
+    width: 100%;
+    margin: 0 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    letter-spacing: 1px;
+}
+
+.text_ex {
+	color: #E6330F;
+    margin: 0;
+}
+
+.corporate_buyer-registration-items {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.corporate_buyer-registration-item {
+	box-sizing: border-box;
+	width: 380px;
+	height: 238px;
+	padding: 0 50px;
+	box-shadow: 0 0 20px 0px #F4F4F4;
+    -webkit-box-shadow: 0 0 20px 0px #F4F4F4;
+    -moz-box-shadow: 0 0 20px 0px #F4F4F4;
+}
+
+.person_ {
+	display: inline;
+    margin-top: 80px;
+    margin-right: 20px;
+    height: 51px;
+}
+
+.registration-item_text {
+	display: inline-block;
+	font-family: "Roboto Regular";
+    color: #1B1717;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 130%;
+    width: 230px;
+    margin: 0;
+}
+
+.phone_ {
+	display: inline;
+    margin-top: 60px;
+    margin-right: 20px;
+    height: 51px;
+}
+
+.text_bold {
+	font-weight: 700;
+}
+
+.mail_ {
+	display: inline;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 25px;
+}
+
+.location_bottom {
+	display: inline;
+    margin-top: 70px;
+    margin-right: 20px;
+    height: 25px;
+}
+
+.registration-item_text-store {
+	display: inline-block;
+	text-decoration: none;
+	font-family: "Roboto Regular";
+    color: #0070C9;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 130%;
+    width: 230px;
+    margin: 20px 0 0 50px;
+}
+
+
+.container_advantages-line_item:first-child:focus ~ .container_advantages-category:first-child {
+	display: none;
+}
+
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+
+	.container_advantages-line_item {
+		font-size: 14px;
+		padding: 15px;
+	}
+
+	.block-information_item {
+		width: 150px;
+		height: 100px;
+	}
+
+	.block-information_item-link {
+		font-size: 16px;
+	}
+
+	.block-social-networks_item {
+		width: 150px;
+		height: 211px;
+	}
+
+	.block-social-networks_item-text {
+		font-size: 11px;
+	}
+
+	.advantages_online-shopping_section-list {
+		width: 70%;
+	}
+
+	.hidden-content_item-section-payment_category {
+		width: 22%;
+	}
+
+	.item-section-payment_category-image {
+		width: auto;
+    	height: auto;
+	}
+
+	.corporate_buyer-registration-item {
+		width: 340px;
+		height: 230px;
+		padding: 0 30px;
+	}
+}
+
+@media (min-width: 961px) and (max-width: 1200px) {
+
+	.container_advantages-line_item {
+		padding: 10px;
+		font-size: 12px;
+	}
+
+	.container_advantages-main {
+		padding: 0 30px;
+		margin: 0 0 60px;
+	}
+
+	.container_advantages-title {
+		font-size: 32px;
+	}
+
+	.container_advantages-category {
+		margin-right: 2%;
+		margin-bottom: 30px;
+	}
+
+	.container_advantages-category_inform-title {
+		font-size: 22px;
+		line-height: 120%;
+	}
+
+	.container_advantages-category_inform-text {
+		margin: 0 0 5px;
+		font-size: 16px;
+	}
+
+	.container_advantages-list {
+		padding: 0 30px;
+		margin: 0 0 80px;    
+	}
+
+	.container_advantages-list-item {
+		padding-bottom: 30px;
+    	padding-top: 30px;
+	}
+
+	.button_hidden_down {
+		width: 50px;
+    	height: 50px;
+    	margin: 0 35px 0 0;
+	}
+
+	.button_hidden {
+	    width: 50px;
+	    height: 50px;
+	}
+
+	.container_advantages-list-item-title {
+		font-size: 24px;
+	}
+
+	.hide_but:checked + .button_hidden_down ~ .container_advantages-list-item_hidden-content {
+		margin-top: 20px;
+		padding-left: 85px;
+	}
+
+	.container_advantages-list-item_hidden-content_item {
+		    margin: 0 0 20px;
+	}
+
+	.container_advantages-list-item_hidden-text {
+		font-size: 16px;
+		line-height: 130%;
+	}
+
+	.container_advantages-list-item_hidden-title {
+		font-size: 20px;
+		    margin: 0 0 15px;
+	}
+
+	.advantages-list-item_hidden-line {
+		margin-bottom: 10px;
+	}
+
+	.hidden-line_arrow {
+		width: 11px;
+	}
+
+	.hidden-content_registration {
+		width: 90%;
+	}
+
+	.application_choice-item {
+		    margin-bottom: 15px;
+	}
+
+	.application_choice-item-hide + .application_choice-item-content {
+		font-size: 16px;
+	}
+
+	.registration_inform-item__ {
+		padding: 10px 20px;
+	    width: 100%;
+	    height: 30px;
+	}
+
+	.registration_inform-item_text {
+		    font-size: 16px;
+	}
+
+	.checkbox-text {
+		font-size: 12px;
+	}
+
+	.checkbox-text::before {
+		width: 15px;
+	    height: 15px;
+	    background-size: 15px;
+	}
+
+	.form-group {
+	    margin-bottom: 15px;
+	}
+
+	.send-button {
+		height: 50px;
+		font-size: 16px;
+	}
+
+	.hidden-block_car {
+	    margin-right: 15px;
+	    width: 130px;
+	}
+
+	.advantages-list-item_hidden-block_content-title {
+		font-size: 16px;
+	}
+
+	.hidden-block_car_button {
+		margin: 10px 40%;
+		    font-size: 16px;
+	}
+
+	.hidden-block_big-car {
+		    margin-right: 10px;
+	}
+
+	.hidden-block_application_button {
+		font-size: 16px;
+		line-height: 120%;
+	    margin: 0 auto 10px;
+	    padding: 11px 25px;
+	}
+
+	.block-information_items {
+		    justify-content: center;
+	}
+
+	.block-information_item {
+		margin: 10px 10px;
+	}
+
+	.block-social-networks_items {
+		justify-content: center;
+	}
+
+	.block-social-networks_item {
+		margin: 10px;
+	}
+
+	.container_advantages-category_service {
+		margin-right: 2%;
+		margin-bottom: 30px;
+	}
+
+	.container_advantages-category_service-icon {
+		margin: 0 15px auto 0;
+    width: 45px;
+    height: 45px;
+	}
+
+	.container_advantages-category_service-title {
+		    font-size: 18px;
+	    font-weight: 700;
+	    letter-spacing: 1px;
+	    line-height: 130%;
+	    margin: 0 0 10px;
+	}
+
+	.container_advantages-category_service-text {
+		font-size: 13px;
+		line-height: 130%;
+    margin: 0 0 10px;
+	}
+
+	.advantages_online-shopping_section-title {
+		    font-size: 16px;
+	}
+
+	.advantages_online-shopping_section-list-item__number {
+		font-size: 14px;
+	}
+
+	.container_advantages-list-item_hidden-text {
+		font-size: 14px;
+	}
+
+	.hidden-block_start-work_button {
+		font-size: 14px;
+	}
+
+	.corporate_buyer-registration-title {
+		    font-size: 32px;
+	}
+
+	.corporate_buyer-registration-items {
+		justify-content: center;
+	}
+
+	.corporate_buyer-registration-item {
+		margin: 10px;
+		width: 310px;
+	}
+
+	.registration-item_text {
+		font-size: 16px;
+		width: 200px;
+	}
+
+	.registration-item_text-store {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 960px) {
+
+	.container__content {
+		justify-content: center;
+	}
+
+	.container_advantages-line {
+		    flex-wrap: wrap;
+    	justify-content: center;
+    	padding: 10px 15px;
+    	margin: 0 auto 30px;
+    	width: 80%;
+	}
+
+	.container_advantages-line_item {
+		padding: 5px 15px;
+    	font-size: 12px;
+	}
+
+	.container_advantages-main {
+		    padding: 0 30px;
+    	margin: 0 0 40px;
+	}
+
+	.container_advantages-title {
+		font-size: 24px;
+		line-height: 120%;
+    margin: 0 0 30px 0;
+	}
+
+	.container_advantages-block {
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.container_advantages-category {
+		margin-right: 0;
+		margin-bottom: 30px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.container_advantages-category-icon {
+	    margin: 0 auto 20px;
+	    width: 50px;
+    	height: 50px;
+	}
+
+	.container_advantages-category_inform-title {
+		font-size: 18px;
+		line-height: 120%;
+	}
+
+	.container_advantages-category_inform-text {
+		margin: 0 0 5px;
+		font-size: 16px;
+		line-height: 120%;
+	}
+
+	.container_advantages-list {
+		padding: 0 30px;
+		margin: 0 0 40px;    
+	}
+
+	.container_advantages-list-item {
+		padding-bottom: 20px;
+    	padding-top: 20px;
+	}
+
+	.button_hidden_down {
+		width: 40px;
+    	height: 40px;
+    	margin: 0 30px 0 0;
+	}
+
+	.button_hidden {
+	    width: 40px;
+	    height: 40px;
+	}
+
+	.container_advantages-list-item-title {
+		font-size: 20px;
+		width: 80%;
+	}
+
+	.hide_but:checked + .button_hidden_down ~ .container_advantages-list-item_hidden-content {
+		margin-top: 20px;
+		padding-left: 0;
+	}
+
+	.container_advantages-list-item_hidden-content_item {
+		    margin: 0 0 20px;
+	}
+
+	.container_advantages-list-item_hidden-text {
+		font-size: 16px;
+		line-height: 130%;
+	}
+
+	.container_advantages-list-item_hidden-title {
+		font-size: 20px;
+		    margin: 0 0 15px;
+		    line-height: 120%;
+	}
+
+	.advantages-list-item_hidden-line {
+		margin-bottom: 10px;
+	}
+
+	.hidden-line_arrow {
+		width: 11px;
+	}
+
+	.hidden-content_registration {
+		width: 100%;
+		flex-direction: column;
+    	justify-content: center;
+	}
+
+	.application_choice-item {
+		    margin-bottom: 15px;
+	}
+
+	.application_choice-item-hide + .application_choice-item-content {
+		font-size: 16px;
+	}
+
+	.registration_inform-item__ {
+		padding: 10px 20px;
+	    width: 100%;
+	    height: 30px;
+	}
+
+	.registration_inform-item_text {
+		    font-size: 16px;
+	}
+
+	.checkbox-text {
+		font-size: 12px;
+	}
+
+	.checkbox-text::before {
+		width: 15px;
+	    height: 15px;
+	    background-size: 15px;
+	}
+
+	.form-group {
+	    margin-bottom: 15px;
+	}
+
+	.send-button {
+		height: 50px;
+		font-size: 16px;
+	}
+
+	.advantages-list-item_hidden-block_cars {
+		justify-content: center;
+	}
+
+	.advantages-list-item_hidden-block_car {
+		width: 100%;
+    	padding: 10px 0;
+	}
+
+	.hidden-block_car {
+	    margin-right: 15px;
+	    width: 100px;
+	}
+
+	.advantages-list-item_hidden-block_car:last-child {
+		width: 100%;
+    	margin: 0;
+	}
+
+	.advantages-list-item_hidden-block_content-title {
+		font-size: 16px;
+	}
+
+	.hidden-block_car_button {
+		margin: 10px auto 0 0;
+    	font-size: 14px;
+		padding: 10px 25px;
+	}
+
+	#delivery {
+		margin-left: 0;
+	}
+
+	.hidden-block_big-car {
+		margin: 0 auto 10px;
+	}
+
+	.hidden-block_knauf-car {
+		width: 100%;
+		height: auto;
+	}
+
+	.alterra_cars {
+	    border-radius: 10px;
+	    width: 100%;
+	    height: auto;
+	}
+
+	.hidden-block_application_button {
+		font-size: 14px;
+		line-height: 120%;
+	    margin: 0 auto 10px;
+	    padding: 10px 25px;
+	}
+
+	.block-information_items {
+		    justify-content: center;
+	}
+
+	.block-information_item {
+		margin: 10px 10px;
+	}
+
+	.block-information_item-link {
+		font-size: 16px;
+	}
+
+	.block-social-networks_items {
+		justify-content: center;
+	}
+
+	.block-social-networks_item {
+		margin: 10px;
+		width: 180px;
+	}
+
+	.block-social-networks_item-text {
+		font-size: 14px;
+	}
+
+	.container_advantages-category_service {
+		margin: 0 auto 20px;
+		justify-content: start;
+		width: 100%;
+	}
+
+	.container_advantages-category_service-icon {
+		margin: 0 25px auto 0;
+	    width: 40px;
+	    height: 40px;
+	}
+
+	.container_advantages-category_service-title {
+		    font-size: 16px;
+	    font-weight: 700;
+	    letter-spacing: 1px;
+	    line-height: 130%;
+	    margin: 0 0 10px;
+	}
+
+	.container_advantages-category_service-text {
+		font-size: 13px;
+		line-height: 130%;
+    margin: 0 0 10px;
+	}
+
+	.advantages_online-shopping_section {
+		flex-direction: column;
+	    justify-content: center;
+	    margin-bottom: 20px;
+	}
+
+	.advantages_online-shopping_section-title {
+		font-size: 16px;
+	    width: 100%;
+	    margin-bottom: 15px;
+	}
+
+	.link_about_dilivery {
+		border-bottom: 2px dashed;
+	}
+
+	.advantages_online-shopping_section-list-item__number {
+		font-size: 14px;
+	}
+
+	.container_advantages-list-item_hidden-text {
+		font-size: 14px;
+	}
+
+	.hidden-block_start-work_button {
+		font-size: 14px;
+		padding: 10px 25px;
+	}
+
+	.hidden-content_item-section-payment {
+		    justify-content: center;
+    	flex-direction: column;
+	}
+
+	.hidden-content_item-section-payment_category {
+		    width: 100%;
+    	margin: 0 auto 20px;
+	}
+
+	.item-section-payment_category-image {
+		width: 240px;
+		height: auto;
+		margin: 0 0 10px;
+	}
+
+	.corporate_buyer-registration-title {
+		    font-size: 24px;
+	}
+
+	.corporate_buyer-registration-items {
+		justify-content: center;
+	}
+
+	.corporate_buyer-registration-item {
+		margin: 10px;
+		width: 290px;
+		height: 220px;
+		padding: 0 30px;
+	}
+
+	.person_ {
+		margin-top: 80px;
+	}
+
+	.registration-item_text {
+		font-size: 14px;
+		width: 180px;
+	}
+
+	.registration-item_text-store {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 480px) {
+
+	.container_advantages-line {
+		    flex-wrap: wrap;
+    	justify-content: center;
+    	padding: 10px 15px;
+    	margin: 0 auto 30px;
+	}
+
+	.container_advantages-line_item {
+		padding: 5px 15px;
+    	font-size: 12px;
+	}
+
+	.container_advantages-main {
+		    padding: 0 10px;
+    	margin: 0 0 40px;
+	}
+
+	.container_advantages-title {
+		font-size: 24px;
+		line-height: 120%;
+    margin: 0 0 30px 0;
+	}
+
+	.container_advantages-block {
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.container_advantages-category {
+		margin-right: 0;
+		margin-bottom: 30px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.container_advantages-category-icon {
+	    margin: 0 auto 20px;
+	    width: 50px;
+    	height: 50px;
+	}
+
+	.container_advantages-category_inform-title {
+		font-size: 18px;
+		line-height: 120%;
+	}
+
+	.container_advantages-category_inform-text {
+		margin: 0 0 5px;
+		font-size: 16px;
+		line-height: 120%;
+	}
+
+	.container_advantages-list {
+		padding: 0 10px;
+		margin: 0 0 40px;    
+	}
+
+	.container_advantages-list-item {
+		padding-bottom: 20px;
+    	padding-top: 20px;
+	}
+
+	.button_hidden_down {
+		width: 40px;
+    	height: 40px;
+    	margin: 0 20px 0 0;
+	}
+
+	.button_hidden {
+	    width: 40px;
+	    height: 40px;
+	}
+
+	.container_advantages-list-item-title {
+		font-size: 20px;
+		width: 70%;
+	}
+
+	.hide_but:checked + .button_hidden_down ~ .container_advantages-list-item_hidden-content {
+		margin-top: 20px;
+		padding-left: 0;
+	}
+
+	.registration_inform {
+		width: 100%;
+	}
+
+	.container_advantages-list-item_hidden-content_item {
+		    margin: 0 0 20px;
+	}
+
+	.container_advantages-list-item_hidden-text {
+		font-size: 16px;
+		line-height: 130%;
+	}
+
+	.container_advantages-list-item_hidden-title {
+		font-size: 20px;
+		    margin: 0 0 15px;
+		    line-height: 120%;
+	}
+
+	.advantages-list-item_hidden-line {
+		margin-bottom: 10px;
+	}
+
+	.hidden-line_arrow {
+		width: 11px;
+	}
+
+	.hidden-content_registration {
+		width: 100%;
+		flex-direction: column;
+    	justify-content: center;
+	}
+
+	.application_choice-item {
+		    margin-bottom: 15px;
+	}
+
+	.application_choice-item-hide + .application_choice-item-content {
+		font-size: 16px;
+	}
+
+	.registration_inform-item__ {
+		padding: 10px 20px;
+	    width: 100%;
+	    height: 30px;
+	}
+
+	.registration_inform-item_text {
+		    font-size: 16px;
+	}
+
+	.checkbox-text {
+		font-size: 12px;
+	}
+
+	.checkbox-text::before {
+		width: 15px;
+	    height: 15px;
+	    background-size: 15px;
+	}
+
+	.form-group {
+	    margin-bottom: 15px;
+	}
+
+	.send-button {
+		height: 50px;
+		font-size: 16px;
+	}
+
+	.advantages-list-item_hidden-block_cars {
+		justify-content: center;
+	}
+
+	.advantages-list-item_hidden-block_car {
+		width: 100%;
+    	padding: 10px 0;
+	}
+
+	.hidden-block_car {
+	    margin-right: 15px;
+	    width: 100px;
+	}
+
+	.advantages-list-item_hidden-block_car:last-child {
+		width: 100%;
+    	margin: 0;
+    	display: flex;
+    	flex-wrap: wrap;
+	}
+
+	.advantages-list-item_hidden-block_content-title {
+		font-size: 16px;
+	}
+
+	.hidden-block_car_button {
+		margin: 10px auto 0 0;
+    	font-size: 14px;
+		padding: 10px 25px;
+	}
+
+	#delivery {
+		margin-left: 0;
+	}
+
+	.hidden-block_big-car {
+		margin: 0 auto 10px;
+		width: 100%;
+		height: auto;
+	}
+
+	.hidden-block_knauf-car {
+		width: 100%;
+		height: auto;
+	}
+
+	.alterra_cars {
+		width: 100%;
+    	height: auto;
+	}
+
+	.hidden-block_application_button {
+		font-size: 14px;
+		line-height: 120%;
+	    margin: 0 auto 10px;
+	    padding: 10px 25px;
+	}
+
+	.block-information_items {
+		    justify-content: center;
+	}
+
+	.block-information_item {
+		margin: 10px 10px;
+	}
+
+	.block-information_item-link {
+		font-size: 16px;
+	}
+
+	.block-social-networks_items {
+		justify-content: center;
+	}
+
+	.block-social-networks_item {
+		margin: 10px;
+		width: 180px;
+	}
+
+	.block-social-networks_item-text {
+		font-size: 14px;
+	}
+
+	.container_advantages-category_service {
+		margin: 0 auto 20px;
+		justify-content: start;
+		    width: 100%;
+	}
+
+	.container_advantages-category_service-icon {
+		margin: 0 25px auto 0;
+	    width: 40px;
+	    height: 40px;
+	}
+
+	.container_advantages-category_service-title {
+		    font-size: 16px;
+	    font-weight: 700;
+	    letter-spacing: 1px;
+	    line-height: 130%;
+	    margin: 0 0 10px;
+	}
+
+	.container_advantages-category_service-text {
+		font-size: 13px;
+		line-height: 130%;
+    margin: 0 0 10px;
+	}
+
+	.advantages_online-shopping_section {
+		flex-direction: column;
+	    justify-content: center;
+	    margin-bottom: 20px;
+	}
+
+	.advantages_online-shopping_section-title {
+		font-size: 16px;
+	    width: 100%;
+	    margin-bottom: 15px;
+	}
+
+	.link_about_dilivery {
+		border-bottom: 2px dashed;
+	}
+
+	.advantages_online-shopping_section-list-item__number {
+		font-size: 14px;
+	}
+
+	.container_advantages-list-item_hidden-text {
+		font-size: 14px;
+	}
+
+	.hidden-block_start-work_button {
+		font-size: 14px;
+		padding: 10px 25px;
+	}
+
+	.hidden-content_item-section-payment {
+		    justify-content: center;
+    	flex-direction: column;
+	}
+
+	.hidden-content_item-section-payment_category {
+		    width: 100%;
+    	margin: 0 auto 20px;
+	}
+
+	.item-section-payment_category-image {
+		width: 240px;
+		height: auto;
+		margin: 0 0 10px;
+	}
+
+	.corporate_buyer-registration-title {
+		    font-size: 24px;
+	}
+
+	.corporate_buyer-registration-items {
+		justify-content: center;
+	}
+
+	.corporate_buyer-registration-item {
+		margin: 10px;
+		width: 290px;
+		height: 220px;
+		padding: 0 30px;
+	}
+
+	.person_ {
+		margin-top: 40px;
+	}
+
+	.registration-item_text {
+		font-size: 14px;
+		width: 150px;
+	}
+
+	.registration-item_text-store {
+		font-size: 14px;
+	}
+}
