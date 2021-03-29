@@ -977,9 +977,35 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 20px 0 0 50px;
 }
 
+.registration_inform-item__for-files {
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100px;
+    border: 1px solid;
+    border-color: #034899;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
 
-.container_advantages-line_item:first-child:focus ~ .container_advantages-category:first-child {
-	display: none;
+.registration_inform-item__files-text {
+    font-family: "Roboto Regular";
+    color: #504B4B;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 140%;
+    margin: 0;
+}
+
+.registration_inform-item_files {
+    position: absolute;
+    width: 340px;
+    height: 100px;
+    opacity: 0;
 }
 
 
@@ -1265,7 +1291,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 	.container_advantages-line {
 		    flex-wrap: wrap;
-    	justify-content: center;
+    	justify-content: space-around;
     	padding: 10px 15px;
     	margin: 0 auto 30px;
     	width: 80%;
@@ -1274,6 +1300,10 @@ input[type=number]::-webkit-outer-spin-button {
 	.container_advantages-line_item {
 		padding: 5px 15px;
     	font-size: 12px;
+        width: 250px;
+        border-bottom: 1px solid;
+        border-color: #9e9e9e;
+        color: #9e9e9e;
 	}
 
 	.container_advantages-main {
@@ -1605,7 +1635,15 @@ input[type=number]::-webkit-outer-spin-button {
 	.container_advantages-line_item {
 		padding: 5px 15px;
     	font-size: 12px;
+        width: 250px;
+        border-bottom: 1px solid;
+        border-color: #9e9e9e;
+        color: #9e9e9e;
 	}
+
+    .container_advantages-line_item:last-child {
+        border: none;
+    }
 
 	.container_advantages-main {
 		    padding: 0 10px;
@@ -1911,22 +1949,48 @@ input[type=number]::-webkit-outer-spin-button {
 	}
 
 	.corporate_buyer-registration-item {
-		margin: 10px;
-		width: 290px;
-		height: 220px;
-		padding: 0 30px;
+		margin: 0 0 30px;
+        padding: 0 20px;
+        height: 140px;
+        width: 260px;
 	}
 
 	.person_ {
-		margin-top: 40px;
+		height: 40px;
+        width: 22px;
+        margin-right: 10px;
+        margin-top: 50px;
 	}
+
+    .phone_ {
+        width: 22px;    
+        height: 40px;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+
+    .mail_ {
+        width: 22px;
+        margin-right: 10px;
+        height: 20px;
+    }
+
+    .location_bottom {
+        width: 22px;
+        margin-top: 30px;
+        margin-right: 10px;
+        height: 25px;
+    }
+
+    .registration-item_text-store {
+        font-size: 16px;
+        width: 180px;
+        margin: 20px 0 0 35px;
+        line-height: 120%;
+    }
 
 	.registration-item_text {
-		font-size: 14px;
-		width: 150px;
-	}
-
-	.registration-item_text-store {
-		font-size: 14px;
+		width: 81%;
+        font-size: 16px;
 	}
 }
